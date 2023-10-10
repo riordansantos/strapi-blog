@@ -1,11 +1,12 @@
 
 import { Navbar, Blogs, Footer } from "../components";
 
-const Homepage = () => {
+// eslint-disable-next-line react/prop-types
+const Homepage = ({blogs}) => {
   return (
     <div>
       <Navbar />
-      <Blogs />
+      <Blogs blogs={blogs ? blogs: ""}/>
       <Footer />
     </div>
   );
