@@ -1,11 +1,12 @@
 
 import { Navbar, Footer, BlogContent } from "../components";
 
-const BlogContentPage = () => {
+// eslint-disable-next-line react/prop-types
+const BlogContentPage = ({blogs}) => {
   return (
     <div>
       <Navbar />
-      <BlogContent/>
+      <BlogContent blogs={blogs}/>
       <Footer />
     </div>
   );

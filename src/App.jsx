@@ -10,7 +10,7 @@ export default function App() {
     <div>
       <Routes>
         <Route path="/" exact element={<Homepage blogs={data ? data : ""}/>}/>
-        <Route path="/blog/:id" exact element={<BlogContentPage />}/>
+        <Route path="/blog/:id" exact element={<BlogContentPage blogs={data ? data : ""}/>}/>
       </Routes>
     </div>
   );
