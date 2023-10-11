@@ -1,4 +1,4 @@
-# Git Colletion
+# Strapi Blog
 
 A blog made with Reactjs and Strapi to learn how to work with that CMS.
 
