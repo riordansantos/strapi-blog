@@ -1,16 +1,19 @@
 import { useState } from "react";
 import { menu, close, logo } from "../assets/index";
+import { Link } from "react-router-dom";
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   return (
     <div className="w-full h-[80px] z-10 bg-white drop-shadow-lg relative">
       <div className="flex justify-between items-center w-full h-full md:max-w-[1240px] m-auto">
         <div className="flex items-center">
-          <img
-            src={logo}
-            alt="logo"
-            className="ml-10 md:ml-3 opacity-[55%] w-full h-[25px]"
-          />
+          <Link to="/">
+            <img
+              src={logo}
+              alt="logo"
+              className="ml-10 md:ml-3 opacity-[55%] w-full h-[25px]"
+            />
+          </Link>
         </div>
         <div className="flex items-center">
           <ul className="hidden md:flex">
