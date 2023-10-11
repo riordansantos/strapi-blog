@@ -11,7 +11,7 @@ const Navbar = () => {
             <img
               src={logo}
               alt="logo"
-              className="ml-10 md:ml-3 opacity-[55%] w-full h-[25px]"
+              className="ml-4 md:ml-3 opacity-[90%] w-full h-[110px]"
             />
           </Link>
         </div>

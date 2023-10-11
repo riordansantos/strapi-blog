@@ -59,7 +59,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="flex flex-col max-w-[1240px] px-2 py-4 m-auto justify-between sm:flex-row text-center text-gray-500 items-center">
-        <p> 2023, CWTS. All rights reserved.</p>
+        <p>Made with ❤️ by Riordan dos Santos</p>
         <div className="flex justify-between sm:w-[300px] pt-4 text-2x1 gap-2">
             <FaFacebook/>
             <FaGithub/>
