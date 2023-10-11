@@ -46,7 +46,7 @@ const Blogs = ({ blogs }) => {
               <Link key={blog.attributes.blogTitle} to={`/blog/${blog.id}`}>
                 <div className="bg-white rounded-xl overflow-hidden drop-shadow-md" >
                   <img
-                  src={`http://localhost:1337${blog.attributes.coverImg.data.attributes.url}`}
+                  src={`https://strapi-be-4i68.onrender.com/api/blogs${blog.attributes.coverImg.data.attributes.url}`}
                     alt="logo"
                     className="h-56 w-full object-cover"
                   />

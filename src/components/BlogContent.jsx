@@ -53,7 +53,7 @@ const BlogContent = ({ blogs }) => {
           <div className="col-span-2 gap-x-8 gap-y-8 ">
             <img
               className="h-56 w-full object-cover"
-              src={`http://localhost:1337${blog.attributes.coverImg.data.attributes.url}`}
+              src={`https://strapi-be-4i68.onrender.com/api/blogs${blog.attributes.coverImg.data.attributes.url}`}
               alt={blog.attributes.blogTitle}
             />
             <h1 className="font-bold text-2x1 my-1 pt-5">
@@ -68,7 +68,7 @@ const BlogContent = ({ blogs }) => {
             <div>
               <img
                 className="p-2 w-32 h-32 rounded-full mx-auto object-cover "
-                src={`http://localhost:1337${blog.attributes.authorImg.data.attributes.url}`}
+                src={`https://strapi-be-4i68.onrender.com/api/blogs${blog.attributes.authorImg.data.attributes.url}`}
                 alt={blog.attributes.authorName}
               />
               <h1 className="font-bold text-2x1 text-center text-gray-900 pt-3">
